@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Training Studio - fitness, gym classes and personal training.">
+  <title>Training Studio | Fitness & Gym</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Keep the original template assets folder in the same project. -->
+
+
+<link rel="stylesheet" href="trainigwebsite.css">
+
+</head>
+<body>
+
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+
+  <header class="header-area header-sticky">
+    <div class="container">
+      <nav class="main-nav">
+        <a href="#top" class="logo">TRAINING <em>STUDIO</em></a>
+        <ul class="nav" id="main-menu">
+          <li><a href="#top" class="active">Home</a></li>
+          <li><a href="#features">About</a></li>
+          <li><a href="#our-classes">Classes</a></li>
+          <li><a href="#schedule">Schedules</a></li>
+          <li><a href="#contact-us">Contact</a></li>
+          <li class="main-button"><a href="#contact-us">Sign Up</a></li>
+        </ul>
+        <button type="button" class="menu-trigger" id="menu-trigger" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-banner" id="top">
+      <video autoplay muted loop playsinline id="bg-video">
+        
+      </video>
+      <div class="video-overlay header-text">
+        <div class="caption">
+          <h6>WORK HARDER, GET STRONGER</h6>
+          <h2>BUILD YOUR BODY <em>STRONGER</em></h2>
+          <div class="main-button scroll-to-section">
+            <a href="#features">BECOME A MEMBER</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <h2>CHOOSE <em>PROGRAM</em></h2>
+          <div class="divider"></div>
+          <p>Choose the right training program and take the first step toward a healthier, stronger you.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="features-items">
+              <li class="feature-item">
+                <div class="left-icon"><span class="feature-symbol">✦</span></div>
+                <div class="right-content">
+                  <h4>Basic Fitness</h4>
+                  <p>Build healthy habits, improve your fitness and get started with a balanced training routine.</p>
+                  <a href="#our-classes" class="text-button">DISCOVER MORE</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon"><span class="feature-symbol">✦</span></div>
+                <div class="right-content">
+                  <h4>New Gym Training</h4>
+                  <p>Learn the fundamentals of gym training with a structured program for every fitness level.</p>
+                  <a href="#our-classes" class="text-button">DISCOVER MORE</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon"><span class="feature-symbol">✦</span></div>
+                <div class="right-content">
+                  <h4>Basic Muscle Course</h4>
+                  <p>Develop strength and confidence with guided resistance and muscle-building exercises.</p>
+                  <a href="#our-classes" class="text-button">DISCOVER MORE</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <ul class="features-items">
+              <li class="feature-item">
+                <div class="left-icon"><span class="feature-symbol">✦</span></div>
+                <div class="right-content">
+                  <h4>Advanced Muscle Course</h4>
+                  <p>Take your performance further with progressive workouts and advanced strength techniques.</p>
+                  <a href="#our-classes" class="text-button">DISCOVER MORE</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon"><span class="feature-symbol">✦</span></div>
+                <div class="right-content">
+                  <h4>Yoga Training</h4>
+                  <p>Improve flexibility, balance and focus through guided yoga and mobility sessions.</p>
+                  <a href="#our-classes" class="text-button">DISCOVER MORE</a>
+                </div>
+              </li>
+              <li class="feature-item">
+                <div class="left-icon"><span class="feature-symbol">✦</span></div>
+                <div class="right-content">
+                  <h4>Body Building Course</h4>
+                  <p>Follow a focused bodybuilding program designed to help you build muscle over time.</p>
+                  <a href="#our-classes" class="text-button">DISCOVER MORE</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="call-to-action">
+      <div class="container">
+        <div class="cta-content">
+          <h2>DON'T <em>THINK</em>, BEGIN <em>TODAY</em>!</h2>
+          <p>Your fitness journey starts with one decision. Join us, stay consistent and make every workout count.</p>
+          <div class="main-button scroll-to-section"><a href="#our-classes">BECOME A MEMBER</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="our-classes">
+      <div class="container">
+        <div class="section-heading">
+          <h2>OUR <em>CLASSES</em></h2>
+          <div class="divider"></div>
+          <p>Explore our training sessions and find a class that matches your goals.</p>
+        </div>
+
+        <div class="row" id="tabs">
+          <div class="col-lg-4">
+            <ul class="class-tabs">
+              <li><a href="#tabs-1" class="active"><span class="tab-symbol">◆</span>First Training Class</a></li>
+              <li><a href="#tabs-2"><span class="tab-symbol">◆</span>Second Training Class</a></li>
+              <li><a href="#tabs-3"><span class="tab-symbol">◆</span>Third Training Class</a></li>
+              <li><a href="#tabs-4"><span class="tab-symbol">◆</span>Fourth Training Class</a></li>
+              <li class="main-rounded-button"><a href="#schedule">VIEW ALL SCHEDULES</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="tabs-content">
+              <article id="tabs-1" class="class-panel active">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85" alt="Fitness training class">
+                <h4>FIRST TRAINING CLASS</h4>
+                <p>Build a strong foundation with a practical full-body workout. Our trainers will guide you through the essential movements and help you train with confidence.</p>
+                <div class="main-button"><a href="#schedule">VIEW SCHEDULE</a></div>
+              </article>
+              <article id="tabs-2" class="class-panel">
+                <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=85" alt="Strength training class">
+                <h4>SECOND TRAINING CLASS</h4>
+                <p>Improve your strength with a structured workout that focuses on technique, consistency and steady progress.</p>
+                <div class="main-button"><a href="#schedule">VIEW SCHEDULE</a></div>
+              </article>
+              <article id="tabs-3" class="class-panel">
+                <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=85" alt="Advanced fitness class">
+                <h4>THIRD TRAINING CLASS</h4>
+                <p>Challenge yourself with a higher-intensity session designed to develop endurance, coordination and strength.</p>
+                <div class="main-button"><a href="#schedule">VIEW SCHEDULE</a></div>
+              </article>
+              <article id="tabs-4" class="class-panel">
+                <img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=1200&q=85" alt="Bodybuilding class">
+                <h4>FOURTH TRAINING CLASS</h4>
+                <p>Focus on muscle development with guided exercises and a balanced approach to bodybuilding.</p>
+                <div class="main-button"><a href="#schedule">VIEW SCHEDULE</a></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="container">
+        <div class="section-heading dark-bg">
+          <h2>CLASSES <em>SCHEDULE</em></h2>
+          <div class="divider"></div>
+          <p>Check the weekly timetable and choose a training session that works for you.</p>
+        </div>
+
+        <div class="filters">
+          <ul class="schedule-filter">
+            <li class="active" data-day="monday" role="button" tabindex="0" aria-pressed="true">Monday</li>
+            <li data-day="tuesday" role="button" tabindex="0" aria-pressed="false">Tuesday</li>
+            <li data-day="wednesday" role="button" tabindex="0" aria-pressed="false">Wednesday</li>
+            <li data-day="thursday" role="button" tabindex="0" aria-pressed="false">Thursday</li>
+            <li data-day="friday" role="button" tabindex="0" aria-pressed="false">Friday</li>
+          </ul>
+        </div>
+
+        <div class="schedule-table">
+          <table>
+            <thead>
+              <tr><th>Training</th><th>Time</th><th>Trainer</th></tr>
+            </thead>
+            <tbody>
+              <tr data-days="monday tuesday"><td data-label="Training">Fitness Class</td><td data-label="Time">10:00 AM - 11:30 AM</td><td data-label="Trainer">William G. Stewart</td></tr>
+              <tr data-days="thursday friday"><td data-label="Training">Muscle Training</td><td data-label="Time">02:00 PM - 03:30 PM</td><td data-label="Trainer">Paul D. Newman</td></tr>
+              <tr data-days="monday tuesday"><td data-label="Training">Body Building</td><td data-label="Time">02:00 PM - 03:30 PM</td><td data-label="Trainer">Boyd C. Harris</td></tr>
+              <tr data-days="wednesday friday"><td data-label="Training">Yoga Training Class</td><td data-label="Time">10:00 AM - 11:30 AM</td><td data-label="Trainer">Hector T. Daigle</td></tr>
+              <tr data-days="wednesday thursday"><td data-label="Training">Advanced Training</td><td data-label="Time">02:00 PM - 03:30 PM</td><td data-label="Trainer">Bret D. Bowers</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trainers">
+      <div class="container">
+        <div class="section-heading">
+          <h2>EXPERT <em>TRAINERS</em></h2>
+          <div class="divider"></div>
+          <p>Meet the people who can help you stay motivated and move toward your fitness goals.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="trainer-item">
+              <div class="image-thumb"><img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=900&q=85" alt="Strength trainer"></div>
+              <div class="down-content">
+                <span>Strength Trainer</span><h4>Bret D. Bowers</h4>
+                <p>Focused on strength fundamentals, safe technique and progressive training.</p>
+                <ul class="social-icons">
+                  <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="trainer-item">
+              <div class="image-thumb"><img src="https://images.unsplash.com/photo-1534368270820-9de3d8053204?auto=format&fit=crop&w=900&q=85" alt="Muscle trainer"></div>
+              <div class="down-content">
+                <span>Muscle Trainer</span><h4>Hector T. Daigle</h4>
+                <p>Helping members build muscle with consistent and well-planned workouts.</p>
+                <ul class="social-icons">
+                  <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="trainer-item">
+              <div class="image-thumb"><img src="https://images.unsplash.com/photo-1566241142559-40e1dab266c6?auto=format&fit=crop&w=900&q=85" alt="Power trainer"></div>
+              <div class="down-content">
+                <span>Power Trainer</span><h4>Paul D. Newman</h4>
+                <p>Supporting athletes with performance-focused strength and conditioning.</p>
+                <ul class="social-icons">
+                  <li><a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact-us">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div id="map">
+              <iframe title="Gym location map" src="https://maps.google.com/maps?q=Av.%20L%C3%BAcio%20Costa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="contact-form">
+              <form id="contact" action="#" method="post">
+                <div class="row">
+                  <div class="col-md-6"><fieldset><input name="name" type="text" id="name" placeholder="Your Name*" required></fieldset></div>
+                  <div class="col-md-6"><fieldset><input name="email" type="email" id="email" placeholder="Your Email*" required></fieldset></div>
+                  <div class="col-md-12"><fieldset><input name="subject" type="text" id="subject" placeholder="Subject"></fieldset></div>
+                  <div class="col-lg-12"><fieldset><textarea name="message" rows="6" id="message" placeholder="Message*" required></textarea></fieldset></div>
+                  <div class="col-lg-12"><fieldset><button type="submit" id="form-submit" class="main-button">SEND MESSAGE</button></fieldset></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2026 Training Studio. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <script>
+    // Mobile navigation
+    const menuButton = document.getElementById('menu-trigger');
+    const menu = document.getElementById('main-menu');
+
+    menuButton.addEventListener('click', function (event) {
+      event.preventDefault();
+      menu.classList.toggle('menu-open');
+      this.setAttribute('aria-expanded', menu.classList.contains('menu-open'));
+    });
+
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('menu-open');
+        menuButton.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Class tabs
+    const tabLinks = document.querySelectorAll('.class-tabs a[href^="#tabs-"]');
+    const classPanels = document.querySelectorAll('.class-panel');
+
+    tabLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        tabLinks.forEach(item => item.classList.remove('active'));
+        classPanels.forEach(panel => panel.classList.remove('active'));
+        this.classList.add('active');
+        const panel = document.querySelector(this.getAttribute('href'));
+        if (panel) panel.classList.add('active');
+      });
+    });
+
+    // Weekly schedule filter
+    const dayButtons = document.querySelectorAll('.schedule-filter li[data-day]');
+    const scheduleRows = document.querySelectorAll('.schedule-table tbody tr');
+
+    function showSchedule(day) {
+      scheduleRows.forEach(row => {
+        const days = row.dataset.days.split(' ');
+        row.hidden = !days.includes(day);
+      });
+    }
+
+    function activateDay(button) {
+      dayButtons.forEach(item => {
+        item.classList.remove('active');
+        item.setAttribute('aria-pressed', 'false');
+      });
+      button.classList.add('active');
+      button.setAttribute('aria-pressed', 'true');
+      showSchedule(button.dataset.day);
+    }
+    dayButtons.forEach(button => {
+      button.addEventListener('click', () => activateDay(button));
+      button.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          activateDay(button);
+        }
+      });
+    });
+    showSchedule('monday');
+  </script>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const header = document.querySelector("header.header-area");
+
+    if (!header) {
+        console.log("Navbar lama helin!");
+        return;
+    }
+
+    function checkScroll() {
+        if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    }
+
+    window.addEventListener("scroll", checkScroll);
+    checkScroll();
+
+});
+</script>
+</body>
+</html>
